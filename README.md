@@ -31,11 +31,20 @@ https://start-your-agency.vercel.app
 
 start-your-agency/
 │
-├── index.html # Main landing page
-├── /assets/ # Backgrounds, logos, icons
-├── /css/ # Styling (animations, layout)
-├── /js/ # Fade-in scroll scripts
-└── README.md # Documentation
+├── index.html                 ← your full landing page HTML
+│
+├── /assets/
+│   ├── hero-bg.jpg            ← blurred city-at-night image
+│   ├── favicon.ico            ← (optional site icon)
+│   └── logo.png               ← (optional logo)
+│
+├── /css/
+│   └── styles.css             ← fade-in animation + layout styles
+│
+├── /js/
+│   └── script.js              ← scroll fade-in script
+│
+└── README.md                  ← documentation (see below)
 
 
 ---
